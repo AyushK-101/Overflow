@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.xMargin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.maxWidth {
+    max-width: 100px;
+}
+
+.speaker-info {
+    flex-direction: row !important;
+    padding: 5px 0;
+}
+
+/* css for social icons in the footer */
+
+.social-icons {
+ font-size: 30px;
+}
+
+.social-links svg{
+    display: none;
+}
+
+.speaker-card {
+    transition: 0.2s all linear;
+}
+
+.speaker-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 11px rgba(236, 226, 226, 0.2);
+}
+    
+.euiImage{
+    max-width:1200px !important;
+}
+
+h1.euiTitle{
+   min-width:300px !important;
+   font-size:2.5rem
+}
